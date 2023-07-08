@@ -1,5 +1,3 @@
-package basic;
-
 public class cardetails {
 	private String carmodel;
 	private String insurence;
