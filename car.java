@@ -1,4 +1,3 @@
-package basic;
 import java.util.Scanner;
 public class car extends cardetails{
 	public static void main(String[] args) {
