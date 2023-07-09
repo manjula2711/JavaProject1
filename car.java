@@ -14,45 +14,45 @@ public class car extends cardetails{
 		cd.setDiscount(sc.nextLine());
 	    String cmodel=cd.getModel();
 		switch (cmodel)	{
-		case "PoloTredline":
+		case "Polo Tredline":
 			cd.setCost(870000);
 			long cost =cd.getCost();
 //			System.out.println("showroom price of selected car: "+cost);
 			break;
 			
 		
-		case "PoloHighline":
+		case "Polo Highline":
 			cd.setCost(1009000);
 			cost =cd.getCost();
 //			System.out.println("showroom price of selected car: "+cost);			
 			break;
 			
 		
-		case "VitusTredline":
+		case "Vitus Tredline":
 			cd.setCost(1105000);
 			cost =cd.getCost();
 //			System.out.println("showroom price of selected car: "+cost);
 			break;
 		
-		case "VitusHighline":
+		case "Vitus Highline":
 			cd.setCost(1308000);
 			cost =cd.getCost();
 //			System.out.println("showroom price of selected car: "+cost);
 			break;
 		
-		case "TaigunTredline":
+		case "Taigun Tredline":
 			cd.setCost(1489000);
 			cost =cd.getCost();
 //			System.out.println("showroom price of selected car: "+cost);
 			break;
 		
-		case "TaigunHighline":
+		case "Taigun Highline":
 			cd.setCost(1542000);
 			cost =cd.getCost();
 //			System.out.println("showroom price of selected car: "+cost);
 			break;
 		
-		case "TaigunTopline":
+		case "Taigun Topline":
 			cd.setCost(1771000);
 			cost =cd.getCost();
 //			System.out.println("showroom price of selected car: "+cost);
