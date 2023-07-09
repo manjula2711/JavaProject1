@@ -57,8 +57,9 @@ public class car extends cardetails{
 			cost =cd.getCost();
 //			System.out.println("showroom price of selected car: "+cost);
 			break;
-		
-		
+		default:
+		       System.out.println();		
+		       break;
 		
 		}
 		long cost = cd.getCost();
