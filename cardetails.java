@@ -44,10 +44,10 @@ public class cardetails {
 
 
 	public void totalcost(String carmodel,long cost) {
-		 tot_amount= cost + RTO + TCScharges;
+		 
 		 if(insurence.equalsIgnoreCase("yes")) {
 			 Insurence=47300;
-			 tot_amount+=Insurence;
+			 tot_amount=Insurence+cost + RTO + TCScharges;
 		 }
 		 if(accessories.equalsIgnoreCase("yes")) {
 			Accessories=15000;
